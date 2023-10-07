@@ -43,12 +43,12 @@ nav a:hover {
 }
 /*don't change*/
 .book:hover, .join:hover {
-    background-color: #dad7cd;
+    background-color: #a3b18a;
     color: white;
 }
 
 #background {
-    background-color: #a3b18a;
+    background-color: #dad7cd;
 }
 /*don't change*/
 .msg {
