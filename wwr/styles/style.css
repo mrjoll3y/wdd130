@@ -21,7 +21,7 @@ body {
     background-color: white;
 }
 header {
-    background-color: rgba(#344E41);
+    background-color: #344E41;
 }
 nav a:hover {
     background-color: black;
