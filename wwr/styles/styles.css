@@ -1,27 +1,8 @@
-<body>  
-    <div id="content"> {
-        max-width: 1600px; 
-        margin: 0 auto;
-    }
+index.html 
+<body>
+    <div id="content">
         <header>
-        <div class="background" {
-            height: 725px;
-        }
-        nav a {
-            text-align: center;
-        }
-    #hero-msg h1, #hero-msg h4 {
-        text-align: center;
-    }
-    .button-box {
-        text-align: center;
-    }
-    main section {
-        text-align: center;
-    }
-    <div class="background" {
-        height: 725px;
-    }
+    . . .
         </footer>
     </div>
 </body>
