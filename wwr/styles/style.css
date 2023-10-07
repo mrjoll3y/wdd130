@@ -60,6 +60,7 @@ h4 {
     color: #a3b18a;
 }
 .book, .join {
+    background-color: #dad7cd;
     color: black;
 }
 .book:hover, .join:hover {
