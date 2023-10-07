@@ -1,3 +1,7 @@
+#logo {
+    height: 10px;
+    width: 10px;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
