@@ -53,10 +53,12 @@ nav a:hover {
     color: #a3b18a;
 }
 .home-title {
-    background-color: black;
+    background-color: #a3b18a;
+    color: black;
 }
 h4 {
-    background-color: black;
+    color: black;
+    background-color: #a3b18a;
 }
 .book, .join {
     background-color: black;
