@@ -21,69 +21,87 @@ main section {
 #background {
     height: 725px;
 }
+/*don't change*/
 body {
     background-color: #a3b18a;
 }
-
+/*don't change*/
 header {
     background-color: #344E41;
 }
+/*don't change*/
 nav a:hover {
     background-color: #dad7cd;
-    color: black;
-}
-.book, .join {
     color: white;
 }
-.book:hover, .join:hover {
-    background-color: #dad7cd;
+/*don't change*/
+.book, .join {
+    background-color: #a3b18a;
     color: black;
 }
+/*don't change*/
+.book:hover, .join:hover {
+    background-color: #dad7cd;
+    color: white;
+}
+
 #background {
     background-color: #dad7cd;
 }
+/*don't change*/
 .msg {
     background-color: #344E41;
 }
+/*don't change*/
 footer {
     background-color: #344E41;
 }
 nav a {
-    color: #a3b18a;
-}
-nav a:hover {
-    background-color: #dad7cd;
     color: black;
 }
+/*don't change*/
+nav a:hover {
+    background-color: #dad7cd;
+    color: white;
+}
+/*don't change*/
 .home-title {
     color: black;
 }
+/*don't change*/
 h4 {
     
-    color: #a3b18a;
+    color: black;
 }
+/*don't change*/
 .book, .join {
     background-color: #a3b18a;
     color: white;
 }
-/*don't change hover*/
+/*don't change*/
 .book:hover, .join:hover {
     background-color: #dad7cd;
+    color: white;
+}
+/*don't change*/
+.msg h2 {
     color: black;
 }
-.msg h2 {
-    color: #a3b18a;
-}
+/*don't change*/
 .msg p {
-    color: #a3b18a;
+    color: black;
 }
+/*don't change*/
 footer {
     color: black;
 }
+/*don't change*/
 footer a {
-    background-color: #dad7cd;
+    background-color: #a3b18a;
+    color: black;
 }
+/*don't change*/
 footer a:hover {
     background-color: #dad7cd;
-    color: black;
+    color: white;
 }
