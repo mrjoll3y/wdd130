@@ -4,6 +4,9 @@
         margin: 0 auto;
     }
         <header>
+        <div class="background" {
+            height: 725px;
+        }
         nav a {
             text-align: center;
         }
