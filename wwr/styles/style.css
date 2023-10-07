@@ -28,13 +28,15 @@ header {
     background-color: #344E41;
 }
 nav a:hover {
-    background-color: black;
+    background-color: #dad7cd;
+    color: black;
 }
 .book, .join {
     background-color: white;
 }
 .book:hover, .join:hover {
     background-color: #dad7cd;
+    color: black;
 }
 #background {
     background-color: #dad7cd;
@@ -49,22 +51,23 @@ nav a {
     color: #a3b18a;
 }
 nav a:hover {
-    background-color: black;
-    color: #a3b18a;
+    background-color: #dad7cd;
+    color: black;
 }
 .home-title {
     color: #a3b18a;
 }
 h4 {
-    color: black;
+    
     color: #a3b18a;
 }
 .book, .join {
-    background-color: #dad7cd;
-    color: black;
+    background-color: #a3b18a;
+    color: white;
 }
 .book:hover, .join:hover {
-    color: white;
+    background-color: #dad7cd;
+    color: black;
 }
 .msg h2 {
     color: #a3b18a;
@@ -79,5 +82,6 @@ footer a {
     background-color: #dad7cd;
 }
 footer a:hover {
-    color: white;
+    background-color: #dad7cd;
+    color: black;
 }
