@@ -17,4 +17,27 @@ main section {
 #background {
     height: 725px;
 }
-
+body {
+    white;
+}
+header {
+    #344E41;
+}
+nav a:hover {
+    black;
+}
+.book, .join {
+    white;
+}
+.book:hover, .join:hover {
+    #dad7cd
+}
+#background {
+    #344E41;
+}
+.msg {
+    white;
+}
+footer {
+    #344E41;
+}
