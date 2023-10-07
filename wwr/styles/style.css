@@ -22,8 +22,9 @@ main section {
     height: 725px;
 }
 body {
-    background-color: white;
+    background-color: #a3b18a;
 }
+
 header {
     background-color: #344E41;
 }
@@ -32,7 +33,7 @@ nav a:hover {
     color: black;
 }
 .book, .join {
-    background-color: white;
+    color: white;
 }
 .book:hover, .join:hover {
     background-color: #dad7cd;
@@ -55,7 +56,7 @@ nav a:hover {
     color: black;
 }
 .home-title {
-    color: #a3b18a;
+    color: black;
 }
 h4 {
     
@@ -65,6 +66,7 @@ h4 {
     background-color: #a3b18a;
     color: white;
 }
+/*don't change hover*/
 .book:hover, .join:hover {
     background-color: #dad7cd;
     color: black;
