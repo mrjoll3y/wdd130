@@ -30,7 +30,7 @@ nav a:hover {
     background-color: white;
 }
 .book:hover, .join:hover {
-    background-color: #dad7cd
+    background-color: #dad7cd;
 }
 #background {
     background-color: #344E41;
