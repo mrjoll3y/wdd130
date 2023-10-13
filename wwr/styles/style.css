@@ -114,7 +114,7 @@ h4 {
 footer {
     background-color: #344E41;
     color: black;
-    padding: 25 px 50 px;
+    padding: 25px 50px;
     margin-top: 200px;
 }
 /*finalized*/
@@ -156,7 +156,7 @@ footer p a:hover {
 } 
 .card-img {
     border: 10px;
-    color: #dad7cd;
+    border-color: #344E41;
 }
 main section img {
     box-sizing: border-box;
