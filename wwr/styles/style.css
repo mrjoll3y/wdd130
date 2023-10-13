@@ -56,7 +56,7 @@ header {
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 /*finalized*/
 .join {
@@ -67,7 +67,7 @@ header {
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 /*finalized*/
 .book:hover, .join:hover {
