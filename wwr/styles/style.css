@@ -26,6 +26,7 @@ main section {
 }
 #background {
     height: 725px;
+    margin-bottom: 100px;
 }
 /*don't change*/
 body {
@@ -80,6 +81,7 @@ header {
 /*finalized*/
 .msg {
     background-color: #344E41;
+    margin-top: 100px;
     line-height: 1.5em;
     padding: 35px;
 }
