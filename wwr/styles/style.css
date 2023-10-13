@@ -24,11 +24,14 @@ main section {
 /*don't change*/
 body {
     background-color: #a3b18a;
-    font-family: Raleway;
+    font-family: Raleway, Helvetica, sans-serif;
     font-size: 23px;
     margin: 0;
     padding: 0;
 
+}
+h2 {
+    margin: 0;
 }
 /*don't change*/
 header {
@@ -67,7 +70,11 @@ footer {
     background-color: #344E41;
 }
 nav a {
+    text-decoration: none;
     color: black;
+    text-align: center;
+    padding: 38px;
+
 }
 /*don't change*/
 nav a:hover {
