@@ -5,6 +5,7 @@ heading-font: "rock salt";
     max-width: 1600px;
     margin: 0 auto;
 }
+/*finalized*/
 nav a {
     text-decoration: none;
     color: black;
@@ -12,6 +13,11 @@ nav a {
     color: white;
     text-align: center;
 }
+nav a:hover {
+    background-color: #dad7cd;
+    color: black;
+}
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
@@ -40,16 +46,10 @@ h2 {
 header {
     background-color: #344E41;
 }
-/*don't change*/
-nav a:hover {
-    background-color: #dad7cd;
-    color: black;
-}
-/*attempt to change links at top*/
 .logo_link {
     color: white;
 }
-/*don't change*/
+/*finalized*/
 .book {
     background-color: #344E41;
     color: white;
@@ -58,8 +58,8 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-
 }
+/*finalized*/
 .join {
     background-color: #a3b18a;
     color: white;
@@ -69,12 +69,11 @@ nav a:hover {
     margin-top: 50px;
     border-radius: 5px;
 }
-/*don't change*/
+/*finalized*/
 .book:hover, .join:hover {
     background-color: #dad7cd;
     color: black;
 }
-
 #background {
     background-color: #dad7cd;
 }
@@ -118,13 +117,13 @@ footer {
     padding: 25 px 50 px;
     margin-top: 200px;
 }
-/*don't change*/
+/*finalized*/
 footer a {
     background-color: #344E41;
     color: white;
     text-decoration: none;
 }
-/*don't change*/
+/*finalized*/
 footer a:hover {
     background-color: #dad7cd;
     color: black;
@@ -144,9 +143,11 @@ footer a:hover {
 #hero-img {
     width: 100%;
 }
+/*finalized*/
 footer p {
     font-size: 1.25em;
 }
+/*finalized*/
 footer p a:hover {
     text-decoration: underline;
 }  
@@ -160,3 +161,4 @@ footer p a:hover {
 main section img {
     box-sizing: border-box;
 }
+footer .social img   padding-top: 15px;
