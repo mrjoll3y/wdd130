@@ -6,8 +6,11 @@ heading-font: "rock salt";
     margin: 0 auto;
 }
 nav a {
-    text-align: center;
     text-decoration: none;
+    color: black;
+    padding: 38px;   
+    color: white;
+    text-align: center;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -40,7 +43,7 @@ header {
 /*don't change*/
 nav a:hover {
     background-color: #dad7cd;
-    color: white;
+    color: black;
 }
 /*attempt to change links at top*/
 .logo_link {
@@ -72,18 +75,6 @@ nav a:hover {
 /*don't change*/
 .social {
     padding-top: 15px;
-}
-nav a {
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    padding: 38px;
-
-}
-/*don't change*/
-nav a:hover {
-    background-color: #dad7cd;
-    color: white;
 }
 /*don't change*/
 .home-title {
