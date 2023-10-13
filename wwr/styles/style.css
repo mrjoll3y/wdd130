@@ -76,6 +76,7 @@ nav a:hover {
 .social {
     padding-top: 15px;
 }
+
 /*don't change*/
 .home-title {
     color: black;
@@ -111,14 +112,14 @@ footer {
 }
 /*don't change*/
 footer a {
-    background-color: #a3b18a;
-    color: black;
+    background-color: #344E41;
+    color: white;
     text-decoration: none;
 }
 /*don't change*/
 footer a:hover {
     background-color: #dad7cd;
-    color: white;
+    color: black;
 }
 
 .logo {
