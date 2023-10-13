@@ -51,16 +51,18 @@ nav a:hover {
 }
 /*don't change*/
 .book, .join {
-    background-color: #a3b18a;
-    color: black;
+    background-color: #344E41;
+    color: white;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
+
 }
 /*don't change*/
 .book:hover, .join:hover {
-    background-color: #a3b18a;
-    color: white;
+    background-color: #dad7cd;
+    color: black;
 }
 
 #background {
@@ -145,3 +147,10 @@ footer p a:hover {
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 } 
+.card-img {
+    border: 10px;
+    color: #dad7cd;
+}
+main section img {
+    box-sizing: border-box;
+}
