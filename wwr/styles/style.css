@@ -24,6 +24,11 @@ main section {
 /*don't change*/
 body {
     background-color: #a3b18a;
+    font-family: Raleway;
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+
 }
 /*don't change*/
 header {
@@ -73,6 +78,7 @@ nav a:hover {
 .home-title {
     color: black;
     font-family: "rock+salt";
+    font-size: 2em;
 }
 /*don't change*/
 h4 {
@@ -92,6 +98,9 @@ h4 {
 /*don't change*/
 .msg h2 {
     color: white;
+}
+.msg {
+    line-height: 1.5;
 }
 /*don't change*/
 .msg p {
