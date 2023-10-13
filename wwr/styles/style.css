@@ -51,6 +51,7 @@ nav a:hover {
     background-color: #a3b18a;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
 }
 /*don't change*/
 .book:hover, .join:hover {
@@ -64,10 +65,15 @@ nav a:hover {
 /*don't change*/
 .msg {
     background-color: #344E41;
+    line-height: 1.5;
+    padding: 35px;
 }
 /*don't change*/
 footer {
     background-color: #344E41;
+}
+.social {
+    padding-top: 15px;
 }
 nav a {
     text-decoration: none;
@@ -106,16 +112,15 @@ h4 {
 .msg h2 {
     color: white;
 }
-.msg {
-    line-height: 1.5;
-}
 /*don't change*/
 .msg p {
     color: white;
+    padding-bottom: 15px;
 }
 /*don't change*/
 footer {
     color: black;
+    padding: 25 px 50 px;
 }
 /*don't change*/
 footer a {
@@ -132,8 +137,13 @@ footer a:hover {
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 6px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 12px;
 }
 #hero-img {
     width: 100%;
