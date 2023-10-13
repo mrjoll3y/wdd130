@@ -166,4 +166,6 @@ footer p a:hover {
 main section img {
     box-sizing: border-box;
 }
-footer .social img   padding-top: 15px;
+footer .social img   {
+    padding-top:15px;
+}
