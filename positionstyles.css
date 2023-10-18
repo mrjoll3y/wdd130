@@ -44,16 +44,19 @@ background-color: red;
 width: 200px; 
 height: 200px; 
 background-color: green; 
+margin-left: -100px;
  } 
 .yellow2 {
 width: 200px; 
 height: 200px; 
 background-color: gold; 
+margin-left: -100px;
 } 
 .blue2 {
 width: 200px; 
 height: 200px; 
 background-color: blue; 
+margin-left: -100px;
 } 
  /* Activity 3 styles */ 
 .content3 {
