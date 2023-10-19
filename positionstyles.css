@@ -151,6 +151,7 @@ clear: both;
     /* This is the parent of the activity 6 boxes. */
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
    
 }
 .red6 {
