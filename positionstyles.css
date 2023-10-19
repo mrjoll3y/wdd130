@@ -154,12 +154,7 @@ clear: both;
    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
    
 }
-.red6 {
-width: 100px; 
-height: 100px; 
-background-color: red; 
-grid-row: 1/5;
-grid-column: 1/3;
+
 } 
 .green6 {
 width: 200px; 
@@ -182,6 +177,12 @@ background-color: gold;
 grid-row: 3/7;
 grid-column: 5/7;
 } 
+.red6 {
+    width: 100px; 
+    height: 100px; 
+    background-color: red; 
+    grid-row: 1/5;
+    grid-column: 1/3;
 
 
 
