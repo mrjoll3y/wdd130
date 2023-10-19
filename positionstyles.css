@@ -144,6 +144,7 @@ background-color: gold;
 width: 100%; 
 height: 100px; 
 background-color: blue; 
+clear: both;
  } 
  /* Activity 6 styles */ 
  .content6 {
