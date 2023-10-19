@@ -151,6 +151,7 @@ clear: both;
     /* This is the parent of the activity 6 boxes. */
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    
 }
 .red6 {
@@ -164,14 +165,20 @@ height: 100px;
 background-color: green; 
  } 
 .yellow6 {
-width: 100px; 
-height: 100px; 
+width: 100%; 
+height: 100%; 
 background-color: gold; 
+grid-row: 3/7;
+grid-column: 5/7;
+
 } 
 .blue6 {
-width: 100px; 
-height: 100px; 
-background-color: blue; 
+width: 100%; 
+height: 100%; 
+background-color: blue;
+grid-column: 2/6; 
+grid-row: 2/6;
+
 } 
 
 
