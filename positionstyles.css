@@ -168,23 +168,21 @@ background-color: green;
 grid-row: 5/7;
 grid-column: 5/7;
  } 
+ .blue6 {
+    width: 100%; 
+    height: 100%; 
+    background-color: blue;
+    grid-column: 2/6; 
+    grid-row: 2/6;
+    } 
 .yellow6 {
 width: 100%; 
 height: 100%; 
 background-color: gold; 
 grid-row: 3/7;
 grid-column: 5/7;
-float: left;
+} 
 
-} 
-.blue6 {
-width: 100%; 
-height: 100%; 
-background-color: blue;
-grid-column: 2/6; 
-grid-row: 2/6;
-clear: both;
-} 
 
 
 /* Do not make any changes below here */
