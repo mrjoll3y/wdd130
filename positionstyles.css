@@ -153,34 +153,40 @@ clear: both;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
    
 }
-.green6 {
-width: 200px; 
-height: 200px; 
-background-color: green; 
-grid-row: 5/7;
-grid-column: 5/7;
- } 
- .blue6 {
-    width: 100%; 
-    height: 100%; 
-    background-color: blue;
-    grid-column: 2/6; 
-    grid-row: 2/6;
-    } 
-.yellow6 {
-width: 100%; 
-height: 100%; 
-background-color: gold; 
-grid-row: 3/7;
-grid-column: 5/7;
-} 
 .red6 {
     width: 100px; 
     height: 100px; 
     background-color: red; 
     grid-row: 1/5;
     grid-column: 1/3;
+    z-index: 4;
 }
+.green6 {
+width: 200px; 
+height: 200px; 
+background-color: green; 
+grid-row: 5/7;
+grid-column: 5/7;
+z-index: 2;
+ } 
+.yellow6 {
+width: 100%; 
+height: 100%; 
+background-color: gold; 
+grid-row: 3/7;
+grid-column: 5/7;
+z-index: 1;
+
+} 
+.blue6 {
+    width: 100%; 
+    height: 100%; 
+    background-color: blue;
+    grid-column: 2/6; 
+    grid-row: 2/6;
+    z-index: 3;
+    } 
+
 
 
 /* Do not make any changes below here */
