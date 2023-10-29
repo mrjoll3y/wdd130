@@ -73,6 +73,10 @@ nav a:hover {
 
 
 /*MAIN GRID*/
+#home-grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(10);
+}
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 } 
@@ -221,10 +225,6 @@ footer a:hover {
 .icon {
     width: 80px;
     padding-top: 12px;
-}
-#home-grid {
-    display: grid;
-    grid-template-columns: 1fr repeat(10);
 }
 /*FOOTER ITEMS*/
 footer {
