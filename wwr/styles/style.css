@@ -116,10 +116,6 @@ nav {
     font-size: 2em;
     margin-top: 10px;
 }
-#home-grid {
-    display: grid;
-    grid-template-columns: 1fr repeat(10);
-}
 /*don't change*/
 h4 {
     
@@ -195,6 +191,10 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }  
+#home-grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(10);
+}
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 } 
