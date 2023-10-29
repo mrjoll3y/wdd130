@@ -43,6 +43,8 @@ h2 {
 /*don't change*/
 header {
     background-color: #344E41;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 .logo_link {
     color: white;
