@@ -46,6 +46,10 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 .logo_link {
     color: white;
 }
@@ -139,7 +143,9 @@ footer a:hover {
     width: 120px;
 }
 #logo_link {
-    padding-top: 6px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .icon {
