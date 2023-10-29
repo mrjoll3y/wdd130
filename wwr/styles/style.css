@@ -3,6 +3,11 @@
     margin: 0 auto;
 }
 /*finalized*/
+header {
+    background-color: #344E41;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
 nav a {
     text-decoration: none;
     color: black;
@@ -51,11 +56,6 @@ h2 {
     margin: 0;
 }
 /*don't change*/
-header {
-    background-color: #344E41;
-    display: grid;
-    grid-template-columns: 150px auto;
-}
 nav {
     display: flex;
     justify-content: space-around;
