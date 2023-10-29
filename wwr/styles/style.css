@@ -46,6 +46,10 @@ header {
     grid-template-columns: 150px auto;
     background-color: #344E41;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 .logo_link {
     color: white;
 }
