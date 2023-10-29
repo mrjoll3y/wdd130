@@ -155,6 +155,12 @@ footer a:hover {
 #hero-img {
     width: 100%;
 }
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
 /*finalized*/
 footer p {
     font-family: 'Franklin Gothic Medium', 'Helvetica', 'sans-serif';
