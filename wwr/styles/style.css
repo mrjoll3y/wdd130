@@ -42,6 +42,8 @@ h2 {
 }
 /*don't change*/
 header {
+    display: grid;
+    grid-template-columns: 150px auto;
     background-color: #344E41;
 }
 .logo_link {
