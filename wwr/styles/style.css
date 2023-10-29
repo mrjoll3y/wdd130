@@ -2,24 +2,7 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-
-
-/*HEADER ITEMS*/
-header {
-    background-color: #344E41;
-    display: grid;
-    grid-template-columns: 150px auto;
-}
-
-
-/*NAV ITEM*/
-nav {
-    display: flex;
-    justify-content: space-around;
-}
-
-
-/*NAV A ITEMS*/
+/*finalized*/
 nav a {
     text-decoration: none;
     color: black;
@@ -32,86 +15,8 @@ nav a:hover {
     color: black;
 }
 
-
-/*LOGO*/
-.logo_link {
-    color: white;
-}
-.logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
-
-
-/*HERO*/
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
-}
-#hero-msg h4 {
-    color:white;
-}
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-}
-#hero-img {
-    width: 100%;
-}
-#hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-}
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
-    
-}
-
-
-/*MAIN GRID*/
-#home-grid {
-    display: grid;
-    grid-template-columns: 1fr repeat(10);
-}
-.rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
-} 
-.rivers-card {
-    grid-column: 2/4;
-    grid-row: 2/3;
-}
-.camping-card {
-    grid-column: 5/7;
-    grid-row: 2/3;
-}
-.rapids-card {
-    grid-column: 8/10;
-    grid-row: 2/3;
-}
-.card-img {
-    border: 10px solid #344E41;
-    border-color: #344E41;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
-.card-img, .mountains {
-    width: 100%;
-}
-.mountains {
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #344E41;;
-}
-main section img {
-    box-sizing: border-box;
 }
 .button-box {
     text-align: center;
@@ -122,8 +27,6 @@ main section {
 #background {
     height: 725px;
     margin-bottom: 100px;
-    grid-column: 1/11;
-    grid-row: 4/9;
 }
 /*don't change*/
 body {
@@ -136,6 +39,13 @@ body {
 }
 h2 {
     margin: 0;
+}
+/*don't change*/
+header {
+    background-color: #344E41;
+}
+.logo_link {
+    color: white;
 }
 /*finalized*/
 .book {
@@ -174,9 +84,6 @@ h2 {
     margin-top: 100px;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #344E41;
 }
 /*don't change*/
 .social {
@@ -185,7 +92,7 @@ h2 {
 
 /*don't change*/
 .home-title {
-    color: #dad7cd;
+    color: black;
     font-family: 'Papyrus', 'Brush Script MT', 'Copperplate';
     font-size: 2em;
     margin-top: 10px;
@@ -207,6 +114,13 @@ h4 {
     font-size: .8em;
     padding-bottom: 15px;
 }
+/*don't change*/
+footer {
+    background-color: #344E41;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
 /*finalized*/
 footer a {
     background-color: #344E41;
@@ -222,69 +136,36 @@ footer a:hover {
 .logo {
     width: 120px;
 }
+#logo_link {
+    padding-top: 6px;
+}
+
 .icon {
     width: 80px;
     padding-top: 12px;
 }
-/*FOOTER ITEMS*/
-footer {
-    background-color: #344E41;
-    color: black;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+#hero-img {
+    width: 100%;
 }
+/*finalized*/
 footer p {
     font-family: 'Franklin Gothic Medium', 'Helvetica', 'sans-serif';
     font-size: 1.25em;
 }
+/*finalized*/
 footer p a:hover {
     text-decoration: underline;
 }  
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+} 
+.card-img {
+    border: 10px solid #344E41;
+    border-color: #344E41;
+}
+main section img {
+    box-sizing: border-box;
+}
 footer .social img   {
     padding-top:15px;
-}
-/*DO NOT MESS WITH OR ADD TO!!!!!!!!!!!*/
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    #hero {
-        margin-top: 0;
-    }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
-    #background {
-        display: none;
-    }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-    footer {
-        margin-top: 25px;
-    }
 }
