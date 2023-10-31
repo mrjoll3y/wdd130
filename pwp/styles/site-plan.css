@@ -16,15 +16,15 @@ Fonts are separated by a | */
   --paragraph-font: 'Pacifico', 'Send Flowers', 'Dancing Script';
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: #6F789B;  /* headlines on a white background */ 
+  --headline-color-on-color: #FDF8E5; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #6F789B; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #FDF8E5; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #A27967;
+  --nav-link-color: #9CAF88 ;
+  --nav-background-color: #D1CBC1;
+  --nav-hover-link-color: #FDF8E5;
+  --nav-hover-background-color: #6F789B;
 }
 
 
