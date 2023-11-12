@@ -239,12 +239,12 @@ footer .social img   {
 .package-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    font-size: 11px;
+    font-size: auto;
     height: auto;
     margin-top: 50px;
 }
 .casual-card, .beginner-card, .intermediate-card, .advanced-card {
-    margin: 100px 0;
+    margin: 200px 0;
 }
 .casual-card{
     grid-column: 1/3;
