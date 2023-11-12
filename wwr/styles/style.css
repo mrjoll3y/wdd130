@@ -244,7 +244,9 @@ footer .social img   {
     width: auto;
 }
 .casual-card, .beginner-card, .intermediate-card, .advanced-card {
-    margin: 200px 0;
+    margin: 50px;
+    align-content: center;
+    align-self: center;
 }
 .casual-card{
     grid-column: auto;
