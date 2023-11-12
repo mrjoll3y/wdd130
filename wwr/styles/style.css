@@ -285,6 +285,13 @@ footer .social img   {
     grid-column: 1/13;
     grid-row: 4/9;
 }
+.mountains1 {
+    width: auto;
+    height: auto;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #dad7cd;
+}
 
 /*THIS GOES AT THE VERY BOTTOM*/
 @media screen and (max-width: 900px) {
