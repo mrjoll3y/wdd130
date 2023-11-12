@@ -280,10 +280,6 @@ footer .social img   {
     grid-column: 1/13;
     grid-row: 4/9;
 }
-p1 {
-    width: 200 px;
-
-}
 
 /*THIS GOES AT THE VERY BOTTOM*/
 @media screen and (max-width: 900px) {
