@@ -196,16 +196,16 @@ footer p a:hover {
 }  
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
-    grid-column: 2/4;
-    grid-row: 2/3;
+    grid-column: auto;
+    grid-row: auto;
 } 
 .camping-card {
-    grid-column: 5/7;
-    grid-row: 2/3;
+    grid-column: auto;
+    grid-row: auto;
 }
 .rapids-card {
-    grid-column: 8/10;
-    grid-row: 2/3;
+    grid-column: auto;
+    grid-row: auto;
 }
 .mountains {
     width: 100%;
@@ -241,10 +241,11 @@ footer .social img   {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: auto;
     margin-top: 50px;
-    width: auto;
+    width:fit-content
 }
 .casual-card, .beginner-card, .intermediate-card, .advanced-card {
     margin: 50px;
+    
     align-content: center;
     align-self: center;
 }
@@ -263,6 +264,8 @@ footer .social img   {
 .advanced-card {
     grid-column: auto;
     grid-row: auto;
+    
+    
 }
 .card-img1 {
     width: 200px;
