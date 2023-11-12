@@ -262,14 +262,7 @@ footer .social img   {
     grid-column: 10/12;
     grid-row: 2/3;
 }
-#backgrounda {
-    background-color: #dad7cd;
-    height: 725px;
-    margin-bottom: 100px;
-    grid-column: 1/13;
-    grid-row: 4/9;
-    width: 100%;
-}
+
 
 
 
