@@ -282,10 +282,18 @@ footer .social img   {
 }
 p1 {
     width: 200 px;
-    
+
 }
 
-
+.msg1 {
+    background-color: #344E41;
+    margin-top: 100px;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/11;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #dad7cd;
+}
 /*THIS GOES AT THE VERY BOTTOM*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
