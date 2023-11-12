@@ -242,7 +242,7 @@ footer .social img   {
     font-size: 11px;
 }
 .casual-card, .beginner-card, .intermediate-card, .advanced-card {
-    margin: 200px 0;
+    margin: 100px 0;
 }
 .casual-card{
     grid-column: 1/3;
