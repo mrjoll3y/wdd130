@@ -267,7 +267,7 @@ footer .social img   {
 
 /*THIS GOES AT THE VERY BOTTOM*/
 @media screen and (max-width: 900px) {
-    #hero, .home-grid, .package-grid {
+    #hero, .home-grid{
         display: block;
         height: auto;
     }
@@ -291,7 +291,7 @@ footer .social img   {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card, .casual-card, .beginner-card, .intermediate-card, .advanced-card{ 
+    .rivers-card, .camping-card, .rapids-card{ 
         margin: 50px auto;
         width: 60%;
     }
