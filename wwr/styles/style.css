@@ -267,7 +267,7 @@ footer .social img   {
 
 /*THIS GOES AT THE VERY BOTTOM*/
 @media screen and (max-width: 900px) {
-    #hero, .home-grid{
+    #hero, .home-grid {
         display: block;
         height: auto;
     }
@@ -287,11 +287,13 @@ footer .social img   {
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
-        font-size: 25px;
+    #hero-msg h1 {
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card{ 
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
     }
@@ -307,4 +309,3 @@ footer .social img   {
         margin-top: 25px;
     }
 }
-    
