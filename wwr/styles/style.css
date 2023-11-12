@@ -273,7 +273,13 @@ footer .social img   {
     transform: .5s;
     box-shadow: 5px 5px 10px #dad7cd;
 }
-
+#background1 {
+    background-color: #dad7cd;
+    height: 725px;
+    margin-bottom: 100px;
+    grid-column: 1/13;
+    grid-row: 4/9;
+}
 
 
 /*THIS GOES AT THE VERY BOTTOM*/
