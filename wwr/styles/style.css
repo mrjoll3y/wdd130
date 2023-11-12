@@ -234,7 +234,31 @@ footer .social img   {
     padding-top:15px;
 }
 
+/*PAGE TWO*/
 
+.package-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.casual-card, .beginner-card, .intermediate-card, .advanced-card {
+    margin: 200px 0;
+}
+.casual-card{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.beginner-card {
+    grid-column: 4/6;
+    grid-row: 2/3;
+}
+.intermediate-card {
+    grid-column: 7/9;
+    grid-row: 2/3;
+}
+.advanced-card {
+    grid-column: 10/12;
+    grid-row: 2/3;
+}
 
 
 /*THIS GOES AT THE VERY BOTTOM*/
