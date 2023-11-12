@@ -196,16 +196,16 @@ footer p a:hover {
 }  
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
-    grid-column: auto;
-    grid-row: auto;
+    grid-column: 2/4;
+    grid-row: 2/3;
 } 
 .camping-card {
-    grid-column: auto;
-    grid-row: auto;
+    grid-column: 5/7;
+    grid-row: 2/3;
 }
 .rapids-card {
-    grid-column: auto;
-    grid-row: auto;
+    grid-column: 8/19;
+    grid-row: 2/3;
 }
 .mountains {
     width: 100%;
@@ -226,7 +226,7 @@ footer p a:hover {
 }
 .card-img, .mountains {
     width: 100%;
-    
+
 }
 main section img {
     box-sizing: border-box;
