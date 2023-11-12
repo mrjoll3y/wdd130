@@ -239,7 +239,6 @@ footer .social img   {
 .package-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    font-size: 11px;
     height: auto;
     margin-top: 50px;
 }
