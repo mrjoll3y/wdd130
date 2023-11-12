@@ -241,7 +241,7 @@ footer .social img   {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: auto;
     margin-top: 50px;
-    width: 100%;
+    width: fit-content;
 }
 .casual-card, .beginner-card, .intermediate-card, .advanced-card {
     margin: 200px 0;
