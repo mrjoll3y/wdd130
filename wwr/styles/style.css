@@ -239,6 +239,7 @@ footer .social img   {
 .package-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 11px;
 }
 .casual-card, .beginner-card, .intermediate-card, .advanced-card {
     margin: 200px 0;
@@ -259,6 +260,7 @@ footer .social img   {
     grid-column: 10/12;
     grid-row: 2/3;
 }
+
 
 
 /*THIS GOES AT THE VERY BOTTOM*/
