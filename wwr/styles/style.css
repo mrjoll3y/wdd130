@@ -234,6 +234,10 @@ footer .social img   {
     padding-top:15px;
 }
 
+
+
+
+/*THIS GOES AT THE VERY BOTTOM*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
