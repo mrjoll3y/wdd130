@@ -286,10 +286,18 @@ footer .social img   {
     grid-row: 4/9;
 }
 .mountains1 {
-    width: auto;
-    height: auto;
+    width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
+    box-shadow: 5px 5px 10px #dad7cd;
+}
+.msg1 {
+    background-color: #344E41;
+    margin-top: 100px;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
     box-shadow: 5px 5px 10px #dad7cd;
 }
 
