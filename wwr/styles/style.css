@@ -241,10 +241,11 @@ footer .social img   {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: auto;
     margin-top: 50px;
-    width:fit-content
+    width:100%;
+
 }
 .casual-card, .beginner-card, .intermediate-card, .advanced-card {
-    margin: 50px;
+    margin: 50px 0;
     
     align-content: center;
     align-self: center;
