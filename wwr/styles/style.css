@@ -265,8 +265,6 @@ footer .social img   {
 .advanced-card {
     grid-column: 10/12;
     grid-row: 2/3;
-    
-    
 }
 .card-img1 {
     width: 200px;
@@ -283,7 +281,7 @@ footer .social img   {
     background-color: #dad7cd;
     height: 725px;
     margin-bottom: 100px;
-    grid-column: 1/13;
+    grid-column: 1/10;
     grid-row: 4/9;
 }
 /*THIS GOES AT THE VERY BOTTOM*/
