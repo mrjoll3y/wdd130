@@ -262,7 +262,10 @@ footer .social img   {
     grid-column: 10/12;
     grid-row: 2/3;
 }
-
+.card-img1 {
+    width: 200px;
+    height: 200px;
+}
 
 
 
