@@ -241,26 +241,26 @@ footer .social img   {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: auto;
     margin-top: 50px;
-    width: fit-content;
+    width: auto;
 }
 .casual-card, .beginner-card, .intermediate-card, .advanced-card {
     margin: 200px 0;
 }
 .casual-card{
-    grid-column: 1/3;
-    grid-row: 2/3;
+    grid-column: auto;
+    grid-row: auto;
 }
 .beginner-card {
-    grid-column: 4/6;
-    grid-row: 2/3;
+    grid-column: auto;
+    grid-row: auto;
 }
 .intermediate-card {
-    grid-column: 7/9;
-    grid-row: 2/3;
+    grid-column: auto;
+    grid-row: auto;
 }
 .advanced-card {
-    grid-column: 10/12;
-    grid-row: 2/3;
+    grid-column: auto;
+    grid-row: auto;
 }
 .card-img1 {
     width: 200px;
