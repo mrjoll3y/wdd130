@@ -2,24 +2,401 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-header {
-    display: grid;
-    grid-template-columns: 150px auto;
-    background-color: #FDF8E5;
-}
 /*finalized*/
-nav {
-    display: flex;
-    justify-content: space-around;
-}
 nav a {
     text-decoration: none;
     color: black;
     padding: 38px;   
-    color: black;
+    color: white;
     text-align: center;
 }
 nav a:hover {
     background-color: #dad7cd;
     color: black;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    color: #dad7cd
+}
+#hero-msg h4 {
+    color: #dad7cd;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    margin-bottom: 100px;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+/*don't change*/
+body {
+    background-color: #a3b18a;
+    font-family: 'Franklin Gothic Medium', 'Helvetica', 'sans-serif';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
+}
+h2 {
+    margin: 0;
+}
+/*don't change*/
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #344E41;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.logo_link {
+    color: white;
+}
+/*finalized*/
+.book {
+    background-color: #344E41;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Helvetica', 'sans-serif';
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+/*finalized*/
+.join {
+    background-color: #a3b18a;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Helvetica', 'sans-serif';
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+/*finalized*/
+.book:hover, .join:hover {
+    background-color: #dad7cd;
+    color: black;
+    text-decoration: none;
+}
+#background {
+    background-color: #dad7cd;
+}
+/*finalized*/
+.msg {
+    background-color: #344E41;
+    margin-top: 100px;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #dad7cd;
+}
+/*don't change*/
+.social {
+    padding-top: 15px;
+}
+
+/*don't change*/
+.home-title {
+    color: black;
+    font-family: 'Papyrus', 'Brush Script MT', 'Copperplate';
+    font-size: 2em;
+    margin-top: 10px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+/*don't change*/
+h4 {
+    
+    color: black;
+}
+/*don't change*/
+.msg h2 {
+    color: white;
+    font-family: 'Papyrus', 'Brush Script MT', 'Copperplate';
+}
+/*don't change*/
+.msg p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Helvetica', 'sans-serif';
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+/*don't change*/
+footer {
+    background-color: #344E41;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*finalized*/
+footer a {
+    background-color: #344E41;
+    color: white;
+    text-decoration: none;
+}
+/*finalized*/
+footer a:hover {
+    background-color: #dad7cd;
+    color: black;
+}
+
+.logo {
+    width: 120px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 12px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-img {
+    width: 100%;
+}
+/*finalized*/
+footer p {
+    font-family: 'Franklin Gothic Medium', 'Helvetica', 'sans-serif';
+    font-size: 1.25em;
+}
+/*finalized*/
+footer p a:hover {
+    text-decoration: underline;
+}  
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+} 
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #dad7cd;
+}
+.card-img {
+    border: 10px solid #344E41;
+    border-color: #344E41;
+    transition: all;
+    transform: .5s;
+    box-shadow: 5px 5px 10px #dad7cd;
+}
+.card-image:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.card-img, .mountains {
+    width: 100%;
+
+}
+main section img {
+    box-sizing: border-box;
+}
+footer .social img   {
+    padding-top:15px;
+}
+
+/*PAGE TWO*/
+
+.package-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+.casual-card, .beginner-card, .intermediate-card, .advanced-card {
+    margin: 50px 0;
+    
+    align-content: center;
+    align-self: center;
+}
+.casual-card{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    
+}
+.beginner-card {
+    grid-column: 4/6;
+    grid-row: 2/3;
+}
+.intermediate-card {
+    grid-column: 7/9;
+    grid-row: 2/3;
+}
+.advanced-card {
+    grid-column: 10/12;
+    grid-row: 2/3;
+}
+.card-img1 {
+    width: 200px;
+    height: 200px;
+}
+.card-img1 {
+    border: 10px solid #344E41;
+    border-color: #344E41;
+    transition: all;
+    transform: .5s;
+    box-shadow: 5px 5px 10px #dad7cd;
+}
+/*Contact us*/
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+
+/*THIS GOES AT THE VERY BOTTOM*/
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #hero-msg h1 {
+        color: #6f7364;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
