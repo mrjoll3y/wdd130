@@ -40,7 +40,7 @@ main section {
 }
 /*don't change*/
 body {
-    background-color: #a3b18a;
+    background-color: #9CAF88;
     font-family: 'Franklin Gothic Medium', 'Helvetica', 'sans-serif';
     font-size: 22px;
     margin: 0;
@@ -96,7 +96,7 @@ nav {
 }
 /*finalized*/
 .msg {
-    background-color: #344E41;
+    background-color: #6F789B;
     margin-top: 100px;
     line-height: 1.5em;
     padding: 35px;
