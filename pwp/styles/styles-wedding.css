@@ -265,6 +265,7 @@ footer .social img   {
     align-items: center;
     align-content: center;
     align-self: center;
+    margin-top: 50px;
     border: 10px solid #344E41;
     border-color: #344E41;
     transition: all;
