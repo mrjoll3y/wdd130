@@ -258,7 +258,13 @@ footer .social img   {
     grid-template-columns: 1fr 1fr;
     text-align: center;
     align-items: center;
-    
+
+}
+.subhero-imgs {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    align-self: center;
 }
 .beginner-card {
     grid-column: 4/6;
