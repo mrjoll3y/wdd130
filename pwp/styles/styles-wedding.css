@@ -262,6 +262,7 @@ footer .social img   {
     height: auto;
     border: 10px solid #344E41;
     border-color: #344E41;
+    color: #D1CBC1;
     transition: all;
     transform: .5s;
     box-shadow: 5px 5px 10px #dad7cd;
