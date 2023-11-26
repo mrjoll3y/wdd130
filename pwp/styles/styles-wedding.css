@@ -256,6 +256,7 @@ footer .social img   {
 }
 .page_link {
     grid-template-columns: 1fr 1fr;
+    display: grid;
     text-align: center;
     align-items: center;
 
