@@ -257,8 +257,17 @@ footer .social img   {
 .page_link {
     grid-template-columns: 1fr 1fr;
     display: grid;
+    display: block;
+    height: auto;
+    border: 10px solid #344E41;
+    border-color: #344E41;
+    transition: all;
+    transform: .5s;
+    box-shadow: 5px 5px 10px #dad7cd;
+
     text-align: center;
     align-items: center;
+    
 
 }
 .subhero-img1 , .subhero-img2 {
