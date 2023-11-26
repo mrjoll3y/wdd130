@@ -73,6 +73,7 @@ nav {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 7px;
+    align-items: center;
 }
 /*finalized*/
 .join {
@@ -251,6 +252,12 @@ footer .social img   {
 .casual-card{
     grid-column: 1/3;
     grid-row: 2/3;
+    
+}
+.page_link {
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
     
 }
 .beginner-card {
