@@ -274,7 +274,7 @@ footer .social img   {
     grid-template-columns: 1fr 1fr;
     display: grid;
     align-items: center;
-    align-content: center;
+    align-content:space-between;
     align-self: center;
     margin-top: 50px;
     border: 10px solid #344E41;
