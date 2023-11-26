@@ -262,6 +262,7 @@ footer .social img   {
 }
 .subhero-img1 , .subhero-img2 {
     grid-template-columns: 1fr 1fr;
+    display: grid;
     align-items: center;
     align-content: center;
     align-self: center;
