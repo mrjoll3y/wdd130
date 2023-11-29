@@ -6,6 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wedding Venue | Head Over Boots | Gallary </title>
     <link rel="stylesheet" href="styles/styles-wedding.css">
+    <script>
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+    </script>
 </head>
 <body>
     <div id="content">
@@ -28,7 +60,167 @@
         <a class='book' href="contact-us.html">Ask a Question</a>
     </div>
 </section>
-<section class="home-grid">
+
+<!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 18</div>
+        <img src="images/galllary1.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 18</div>
+        <img src="images/galllary2.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 18</div>
+        <img src="images/galllary3.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 18</div>
+        <img src="images/galllary4" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 18</div>
+        <img src="images/galllary5.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 18</div>
+        <img src="images/galllary6.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <div class="numbertext">7 / 18</div>
+          <img src="images/galllary7.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">8 / 18</div>
+          <img src="images/galllary8.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">9 / 18</div>
+          <img src="images/galllary9.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">10 / 18</div>
+          <img src="images/galllary10.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">11 / 18</div>
+          <img src="images/galllary11.jpg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">12 / 18</div>
+          <img src="images/galllary12.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">13 / 18</div>
+          <img src="images/galllary13.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">14 / 18</div>
+          <img src="images/galllary14.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">15 / 18</div>
+          <img src="images/galllary15.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">16 / 18</div>
+          <img src="images/galllary16.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">17 / 18</div>
+          <img src="images/galllary17.jpg" style="width:100%">
+      </div>   
+      
+      <div class="mySlides">
+        <div class="numbertext">18 / 18</div>
+          <img src="images/galllary18.jpg" style="width:100%">
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="images/galllary1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary9.jpg" style="width:100%" onclick="currentSlide(9)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary10.jpg" style="width:100%" onclick="currentSlide(10)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary11.jpg" style="width:100%" onclick="currentSlide(11)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary12.jpg" style="width:100%" onclick="currentSlide(12)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary13.jpg" style="width:100%" onclick="currentSlide(13)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary14.jpg" style="width:100%" onclick="currentSlide(14)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary15.jpg" style="width:100%" onclick="currentSlide(15)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary16.jpg" style="width:100%" onclick="currentSlide(16)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary17.jpg" style="width:100%" onclick="currentSlide(17)" alt="Head Over Boots">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/galllary18.jpg" style="width:100%" onclick="currentSlide(18)" alt="Head Over Boots">
+      </div>
+    </div>
+  </div>
+
     <img class="card-img" src="images/galllary1.jpg" alt="one">
     <img class="card-img" src="images/galllary2.jpg" alt="two">
     <img class="card-img" src="images/galllary3.jpg" alt="three">
