@@ -347,9 +347,6 @@ footer .social img   {
     
 }
 .page_link1 , .page_link2 {
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-    display: block;
     margin-top: 50px;
     height: auto;
     border: 10px solid #344E41;
@@ -358,11 +355,8 @@ footer .social img   {
     transition: all;
     transform: .5s;
     box-shadow: 5px 5px 10px #dad7cd;
-    text-align: center;
-    align-items: center;
-    
-
 }
+
 .page_link1 {
     left: 0;
 }
