@@ -236,7 +236,7 @@ footer p a:hover {
   }
   
   /* Hide the images by default */
-  .mySlides {
+  .myslides {
     size: 200px 200px 200px 200px;
     display: none;
   }
