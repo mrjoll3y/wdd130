@@ -237,7 +237,6 @@ footer p a:hover {
   
   /* Hide the images by default */
   .myslides {
-    size: 200px 200px 200px 200px;
     display: none;
   }
   
