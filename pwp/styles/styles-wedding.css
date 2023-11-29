@@ -346,7 +346,7 @@ footer .social img   {
     grid-row: 2/3;
     
 }
-.page_link {
+.page_link1 , .page_link2 {
     grid-template-columns: 1fr 1fr;
     display: grid;
     display: block;
@@ -362,6 +362,12 @@ footer .social img   {
     align-items: center;
     
 
+}
+.page_link1 {
+    left: 0;
+}
+.page_link2 {
+    right: 0;
 }
 .subhero-img1 , .subhero-img2 {
     grid-template-columns: 1fr 1fr;
