@@ -231,6 +231,7 @@ footer p a:hover {
   
   /* Position the image container (needed to position the left and right arrows) */
   .container {
+    margin-top: 50px;
     position: relative;
   }
   
@@ -312,7 +313,7 @@ footer p a:hover {
     opacity: 1;
   }
 .card-image:hover {
-    opacity: .6;
+    opacity: 0.6;
     transform: scale(1.1);
 }
 .card-img, .mountains {
