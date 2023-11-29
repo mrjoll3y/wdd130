@@ -162,6 +162,8 @@ footer a:hover {
 
 .logo {
     width: 120px;
+    text-decoration: none;
+    font: #D1CBC1;
 }
 #logo_link {
     padding-top: 5px;
