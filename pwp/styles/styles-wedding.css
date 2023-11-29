@@ -214,12 +214,16 @@ footer p a:hover {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #dad7cd;
 }
-.mySlides {
+.container {
+    grid-template-columns: auto;
+    margin: 15px 15px 15px;
+    display: grid;
     border: 10px solid #344E41;
     border-color: #9CAF88;
     transition: all;
     transform: .5s;
     box-shadow: 5px 5px 10px #FDF8E5;
+    
 }
 * {
     box-sizing: border-box;
