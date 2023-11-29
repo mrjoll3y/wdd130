@@ -237,7 +237,7 @@ footer p a:hover {
   
   /* Hide the images by default */
   .myslides {
-    display: grid;
+    display: none;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
