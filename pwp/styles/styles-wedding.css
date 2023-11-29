@@ -218,11 +218,11 @@ footer p a:hover {
     grid-template-columns: auto;
     margin: 15px 15px 15px;
     display: grid;
-    border: 10px solid #9CAF88;
-    border-color: #9CAF88;
+    border: 10px solid #6F789B;
+    border-color: #6F789B;
     transition: all;
     transform: .5s;
-    box-shadow: 5px 5px 10px 10px #FDF8E5;
+    box-shadow: 5px 5px 5px 5px #FDF8E5;
     
 }
 * {
