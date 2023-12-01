@@ -353,7 +353,7 @@ footer .social img   {
     grid-row: 2/3;
     
 }
-.page_link1 , .page_link2 {
+.page_link {
     grid-template-columns: 1fr 1fr;
     display: block;
     margin-left: auto;
