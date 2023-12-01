@@ -161,8 +161,8 @@ footer a:hover {
     color: black;
 }
 .logo1 {
-    height: 120px;
-    width: 120px;
+    height: 200px;
+    width: 200px;
 }
 .logo {
     width: 200px;
@@ -362,7 +362,7 @@ footer .social img   {
     grid-row: 2/3;
     
 }
-.page_link , .logo{
+.page_link {
     grid-template-columns: 1fr 1fr;
     display: block;
     margin-left: auto;
