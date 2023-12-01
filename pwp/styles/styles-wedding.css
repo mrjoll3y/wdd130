@@ -376,6 +376,7 @@ footer .social img   {
     margin-left: auto;
     margin-right: auto;
     height: auto;
+    align-items:center ;
     margin-top: 100px;
     justify-content: center;
     border: 10px solid #344E41;
