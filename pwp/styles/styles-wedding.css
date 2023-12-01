@@ -60,6 +60,7 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    align-self: center;
 }
 .logo_link {
     color: white;
@@ -162,8 +163,8 @@ footer a:hover {
     color: black;
 }
 .logo1 {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
 }
 .logo {
     width: 200px;
