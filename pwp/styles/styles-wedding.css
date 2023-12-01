@@ -239,8 +239,8 @@ footer p a:hover {
   
   /* Hide the images by default */
   .myslides {
-    display: none;
-    height: fit-content;
+    display: block;
+    height: 200px 200px;
     margin: 5px 5px 5px 5px;
     border: 5px solid #D1CBC1;
     border-color: #A27967;
