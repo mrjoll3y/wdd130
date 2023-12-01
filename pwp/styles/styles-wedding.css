@@ -230,6 +230,7 @@ footer p a:hover {
     box-shadow: 5px 5px 10px #dad7cd;
 }
 .container {
+    position: relative;
     grid-template-columns: auto;
     margin: 15px 15px 15px;
     display: grid;
@@ -245,7 +246,6 @@ footer p a:hover {
   
   /* Position the image container (needed to position the left and right arrows) */
   .container {
-    margin-top: 50px;
     position: relative;
   }
   
