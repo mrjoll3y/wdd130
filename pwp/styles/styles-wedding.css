@@ -166,6 +166,12 @@ footer a:hover {
     height: 300px;
     text-decoration: none;
     font: 'Lora';
+    border: 10px solid #344E41;
+    border-color: #344E41;
+    color: #D1CBC1;
+    text-decoration: none;
+    transition: all;
+    box-shadow: 5px 5px 10px #dad7cd;
 }
 #logo_link {
     padding-top: 5px;
