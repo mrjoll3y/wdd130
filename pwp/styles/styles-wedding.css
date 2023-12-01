@@ -160,7 +160,10 @@ footer a:hover {
     background-color: #A27967;
     color: black;
 }
-
+.logo1 {
+    height: 120px;
+    width: 120px;
+}
 .logo {
     width: 200px;
     height: 300px;
