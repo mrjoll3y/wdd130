@@ -353,11 +353,13 @@ footer .social img   {
     
 }
 .page_link1 , .page_link2 {
+    grid-template-columns: 1fr 1fr;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    height: 400px;
+    align-items: center;
+    margin-top: 100px;
+    height: 300px;
     border: 10px solid #344E41;
     border-color: #344E41;
     color: #D1CBC1;
@@ -365,12 +367,6 @@ footer .social img   {
     box-shadow: 5px 5px 10px #dad7cd;
 }
 
-.page_link1 {
-    left: 0;
-}
-.page_link2 {
-    right: 0;
-}
 .subhero-img{
     display: block;
     margin-left: auto;
