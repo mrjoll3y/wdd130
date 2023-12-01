@@ -165,7 +165,6 @@ footer a:hover {
     width: 200px;
     height: 300px;
     text-decoration: none;
-    font: 'Lora';
     border: 10px solid #344E41;
     border-color: #344E41;
     color: #D1CBC1;
@@ -248,7 +247,7 @@ footer p a:hover {
   /* Hide the images by default */
   .myslides {
     display: block;
-    height: 200px 200px;
+    height: 200px;
     margin: 5px 5px 5px 5px;
     border: 5px solid #D1CBC1;
     border-color: #A27967;
