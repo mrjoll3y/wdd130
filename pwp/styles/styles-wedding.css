@@ -366,12 +366,11 @@ footer .social img   {
 .page_link2 {
     right: 0;
 }
-.subhero-img1 , .subhero-img2 {
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-    align-items: center;
-    align-content:space-between;
-    align-self: center;
+.subhero-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
     margin-top: 50px;
     border: 10px solid #344E41;
     border-color: #344E41;
