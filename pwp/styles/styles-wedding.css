@@ -383,6 +383,10 @@ footer .social img   {
     box-shadow: 5px 5px 10px #dad7cd;
 }
 
+.boots-img , .flower-img, .addons-img {
+    margin-left: auto;
+}
+
 .subhero-img{
     display: block;
     margin-left: auto;
