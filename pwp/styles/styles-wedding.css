@@ -117,7 +117,7 @@ nav {
 }
 
 /*don't change*/
-.home-title {
+.home-title h1 {
     color: black;
     font-family: 'Lora', 'Brush Script MT', 'Copperplate';
     font-size: 2em;
