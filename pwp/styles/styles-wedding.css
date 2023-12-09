@@ -397,8 +397,14 @@ footer .social img   {
     box-shadow: 5px 5px 10px #dad7cd;
 }
 
-.boots-img , .flower-img, .addons-img {
-    margin-right: 0;
+.boots-img , .flower-img, .addons-img , .sunrise-img , .sunset-img , .horse-img {
+   display: grid;
+    border: 10px solid #344E41;
+    border-color: #344E41;
+    color: #D1CBC1;
+    text-decoration: none;
+    transition: all;
+    box-shadow: 5px 5px 10px #dad7cd;    
 }
 .package-one , .package-two {
     text-align: center;
