@@ -180,6 +180,10 @@ footer a:hover {
     transition: all;
     box-shadow: 5px 5px 10px #dad7cd;
 }
+.package-info {
+    text-align: center;
+    list-style-position: inside;
+}
 #logo_link {
     padding-top: 5px;
     justify-self: center;
