@@ -405,6 +405,8 @@ footer .social img   {
     align-items: center;
     align-content: center;
     align-self: auto;
+    justify-items: center;
+    justify-self: center;
     border: 10px solid #344E41;
     border-color: #344E41;
     color: #D1CBC1;
