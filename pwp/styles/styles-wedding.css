@@ -257,6 +257,9 @@ footer p a:hover {
     border-color: #A27967;
     transition: all;
     box-shadow: 2.5px 2.5px 2.5px 2.5px #D1CBC1;
+    align-content: center;
+    align-self: center;
+    align-items: center;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
