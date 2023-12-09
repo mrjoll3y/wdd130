@@ -384,7 +384,7 @@ footer .social img   {
 }
 
 .boots-img , .flower-img, .addons-img {
-    margin-right: auto;
+    margin-right: 0;
 }
 .package-one , .package-two {
     text-align: center;
