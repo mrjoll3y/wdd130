@@ -386,6 +386,11 @@ footer .social img   {
 .boots-img , .flower-img, .addons-img {
     margin-right: auto;
 }
+.package-one {
+    text-align: center;
+    list-style-position: inside;
+}
+
 .sunset {
     margin-top: 50px;
 }
