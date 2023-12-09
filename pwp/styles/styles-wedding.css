@@ -107,7 +107,7 @@ nav {
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #dad7cd;
-    font: "Pacifico";
+    font-family: "Pacifico" , "sans-serif" , "courier";
 }
 /*don't change*/
 .social {
