@@ -28,8 +28,8 @@ nav a:hover {
 #hero-msg h4 {
     color: #dad7cd;
 }
-.button-box {
-    text-align: center;
+.button-box .book:hover {
+    background-color: #dad7cd;
 }
 main section {
     text-align: center;
@@ -146,24 +146,29 @@ h4 {
 }
 /*don't change*/
 footer {
-    background-color: #D1CBC1;
-    color: black;
-    padding: 25px 50px;
-    margin-top: 200px;
+    background-color: #344E41; /* Darker background color for contrast */
+    color: #FDF8E5; /* Light color for text */
+    padding: 40px 20px; /* More padding for spacious look */
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    text-align: center;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for effect */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    gap: 20px; /* Add spacing between flex items */
 }
 /*finalized*/
 footer a {
-    background-color: #D1CBC1;
-    color: black;
+    color: #FDF8E5; /* Match the text color with footer background */
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 /*finalized*/
 footer a:hover {
-    background-color: #A27967;
-    color: black;
+    color: #A27967; /* Subtle color change on hover */
+    text-decoration: underline;
 }
 .logo1 {
     width: 160px;
@@ -222,8 +227,9 @@ footer a:hover {
 
 /*finalized*/
 footer p {
-    font-family: "Pacifico" , "sans-serif" , "courier";
-    font-size: 1.25em;
+    font-family: "Pacifico", "sans-serif", "courier";
+    font-size: 1em;
+    margin: 0; /* Remove margin for better alignment */
 }
 /*finalized*/
 footer p a:hover {
@@ -271,36 +277,43 @@ footer p a:hover {
   /* Hide the images by default */
   .myslides {
     display: none;
-    margin: 7.5px 7.5px 7.5px 7.5px;
-    border: 5px solid #A27967;
-    border-color: #A27967;
-    transition: all;
-    box-shadow: 2.5px 2.5px 2.5px 2.5px #D1CBC1;
-    align-content: center;
-    align-self: center;
-    align-items: center;
-  }
-  
+    position: relative;
+}
+.myslides img {
+    max-width: 100%; /* Makes sure the image doesn't exceed the screen width */
+    max-height: 80vh; /* Sets a maximum height to prevent it from overflowing vertically */
+    object-fit: contain; /* Maintains aspect ratio and fits the image within the container */
+}
   /* Add a pointer when hovering over the thumbnail images */
   .cursor {
     cursor: pointer;
   }
   
   /* Next & previous buttons */
-  .prev,
-  .next {
+  .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 40%;
+    top: 50%;
     width: auto;
     padding: 16px;
-    margin-top: -50px;
+    margin-top: -22px;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
+    transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
   
   /* Position the "next button" to the right */
   .next {
@@ -316,21 +329,29 @@ footer p a:hover {
   
   /* Number text (1/3 etc) */
   .numbertext {
-    color: #f2f2f2;
+    color: white;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
+    left: 0;
+}
   
   /* Container for image text */
   .caption-container {
     text-align: center;
     background-color: #222;
-    padding: 2px 16px;
     color: white;
-  }
-  
+    padding: 10px;
+    margin-top: 10px;
+}
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
   .row:after {
     content: "";
     display: table;
@@ -339,9 +360,20 @@ footer p a:hover {
   
   /* Six columns side by side */
   .column {
-    float: left;
-    width: 16.66%;
-  }
+    flex: 16.66667%; /* Four thumbnails per row */
+    padding: 5px;
+}
+
+  .column img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.column img:hover {
+    transform: scale(1.05);
+}
   
   /* Add a transparency effect for thumnbail images */
   .demo {
@@ -363,11 +395,72 @@ footer p a:hover {
 main section img {
     box-sizing: border-box;
 }
-footer .social img   {
-    padding-top:15px;
+footer .social img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px; /* Add spacing between icons */
+    filter: brightness(0) invert(1); /* Make icons white */
+    transition: transform 0.2s ease, filter 0.3s ease;
+}
+footer .social img:hover {
+    filter: brightness(0.7); /* Dim icon on hover */
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+/*PAGE TWO*/
+.packages-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distributes packages evenly */
+    padding: 20px;
 }
 
-/*PAGE TWO*/
+.package-card {
+    background-color: #fff; /* Card background */
+    border: 1px solid #ddd; /* Card border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: calc(30% - 40px); /* Responsive width */
+    margin: 20px;
+    padding: 20px;
+    text-align: center; /* Centered text */
+    transition: transform 0.3s; /* Animation */
+}
+
+.package-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.package-img {
+    width: 100%; /* Responsive image */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Button Box */
+.button-box {
+    display: flex;
+    justify-content: center; /* Center buttons */
+    margin-top: 20px;
+}
+
+.button-box a {
+    background-color: #007BFF; /* Button background color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: background-color 0.3s , transform 0.3s;
+}
+.hero-msg {
+    text-align: center; /* Center text */
+    padding: 30px 20px;
+    background: #f4f4f4; /* Light background for contrast */
+    margin: 20px 0;
+    width: 100%; /* Full width */
+}
+.button-box a:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
 
 .package-grid{
     display: grid;
@@ -385,22 +478,36 @@ footer .social img   {
     grid-row: 2/3;
     
 }
-.page_link {
-    grid-template-columns: 1fr 1fr;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    margin-top: 100px;
-    height: 300px;
-    width: 200px;
-    border: 10px solid #344E41;
-    border-color: #344E41;
-    color: #D1CBC1;
-    text-decoration: none;
-    transition: all;
-    box-shadow: 5px 5px 10px #dad7cd;
+.link-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the links horizontally */
+    gap: 20px; /* Space between the links */
+    max-width: 800px; /* Optional: set a max width for the container */
+    margin: 0 auto; /* Center the container itself */
+    padding: 20px; /* Add padding around the container */
+    background-color: #9CAF88; /* Set a background color for the container */
+    border-radius: 10px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
 }
+
+.page_link {
+    flex: 1; /* Make each link take equal space */
+    display: flex; /* Enable flexbox for the link to center the image */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.page-img {
+    width: 100%; /* Make the image take the full width of the link */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 300px; /* Set a max width to keep the images a consistent size */
+    max-height: 200px; /* Set a max height to keep the images a consistent size */
+    object-fit: cover; /* Ensure the images cover the area without distortion */
+    border: 10px solid #344E41; /* Optional: Add a border */
+    box-shadow: 5px 5px 10px #dad7cd; /* Optional: Add shadow */
+}
+
 
 .boots-img , .flower-img, .addons-img , .sunrise-img , .sunset-img , .horse-img {
     align-items: center;
@@ -423,23 +530,28 @@ footer .social img   {
 .sunset {
     margin-top: 50px;
 }
-
-.subhero-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    align-items:center ;
-    margin-top: 100px;
+.subhero-container {
+    display: flex;
     justify-content: center;
+    align-items: center; /* Center the images vertically, if needed */
+    gap: 120px; /* Add space between images */
+
+    flex-wrap: wrap; /* Ensures images wrap on smaller screens */
+    margin-left: auto;
+}
+.subhero-img {
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Limit max width for larger screens */
+    height: auto;
     border: 10px solid #344E41;
     border-color: #344E41;
-    transition: all;
+    transition: all 0.3s ease;
     box-shadow: 5px 5px 10px #dad7cd;
     text-align: center;
     color: #A27967;
     text-decoration: none;
 }
+
 .beginner-card {
     grid-column: 4/6;
     grid-row: 2/3;

@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif; /* Use a clean sans-serif font */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    color: #333; /* Dark text for readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+#content {
+    max-width: 800px; /* Limit content width */
+    margin: 0 auto; /* Center content */
+    padding: 20px; /* Add padding around content */
+}
+
+header {
+    display: flex; /* Use flexbox for header layout */
+    justify-content: space-between; /* Space out logo and nav */
+    align-items: center; /* Center items vertically */
+    background-color: #fff; /* White background for header */
+    padding: 10px 20px; /* Padding inside header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+nav a {
+    margin-left: 20px; /* Space between navigation links */
+    text-decoration: none; /* Remove underline */
+    color: #555; /* Darker color for links */
+    transition: color 0.3s; /* Smooth transition on hover */
+}
+
+nav a:hover {
+    color: #007BFF; /* Change color on hover */
+}
+
+form {
+    margin: 20px auto; /* Center the form */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Limit form width */
+    padding: 1.5em; /* Increased padding */
+    background-color: #fff; /* White background for form */
+    border-radius: 0.5em; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+ul {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+form li {
+    margin-bottom: 1.5em; /* Space between form elements */
+}
+
+label {
+    display: block; /* Stack labels and inputs */
+    margin-bottom: 0.5em; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+}
+
+input,
+textarea {
+    font: 1em sans-serif; /* Use the same font */
+    width: 100%; /* Full width inputs */
+    box-sizing: border-box; /* Include padding and border in width */
+    padding: 0.5em; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 0.25em; /* Slightly rounded corners */
+}
+
+input:focus,
+textarea:focus {
+    border-color: #007BFF; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+textarea {
+    height: 150px; /* Fixed height for textarea */
+}
+
+.button {
+    display: flex; /* Use flexbox to align button */
+    justify-content: flex-end; /* Align button to the right */
+}
+
+button {
+    padding: 0.5em 1em; /* Padding inside button */
+    background-color: #007BFF; /* Button color */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 0.25em; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#feedback {
+    background-color: antiquewhite; /* Feedback background color */
+    padding: 1em; /* Padding for feedback */
+    border-radius: 0.25em; /* Rounded corners */
+    margin-top: 20px; /* Space above feedback */
+    display: none; /* Hidden by default */
+}
+
+.moveDown {
+    margin-top: 3em; /* Space below the feedback message */
+}
+
+footer {
+    text-align: center; /* Center text in footer */
+    padding: 20px 0; /* Padding for footer */
+    background-color: #fff; /* White background */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow above footer */
+    margin-top: 20px; /* Space above footer */
+}
+
+footer p {
+    margin: 5px 0; /* Space between footer paragraphs */
+}
+
+.social {
+    margin-top: 10px; /* Space above social icons */
+}
+
+.social a {
+    margin: 0 10px; /* Space between social icons */
+}
+
+.social img {
+    width: 24px; /* Set social icon size */
+    height: 24px; /* Set social icon size */
+}

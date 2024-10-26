@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wedding Venue | Head Over Boots | Home </title>
     <link rel="stylesheet" href="styles/styles-wedding.css">
+    <script src="scripts/scripts.js"></script>
 </head>
 <body>
     <div id="content">
@@ -18,6 +19,7 @@
         <a  href="gallary.html">Gallery</a>
         <a href="packages.html">Packages</a>
         <a href="contact-us.html">Contact Us</a>
+        <a href="form.html"> Review Us</a>
     </nav>
 </header>
 <div id="hero">
@@ -40,15 +42,18 @@
     <a class='book' href="contact-us.html">Contact Us</a>
 </section>
 
-<a class="hero-box" href="gallary.html">
-    <img class="subhero-img" src="images/galary1.jpg" alt="gal-link">
-</a>
-<a class="hero-box" href="packages.html">
-    <img class="subhero-img" src="images/bootspackage2.jpg" alt="pack-link">
-</a>
+<div class="link-container">
+    <a href="gallary.html" class="page_link"> 
+        <img src="images/galary1.jpg" alt="Gallery" class="page-img">
+    </a>
+    <a href="packages.html" class="page_link"> 
+        <img src="images/bootspackage2.jpg" alt="Packages" class="page-img">
+    </a>
+</div>
 
 <footer>
-    <p>Head Over Boots &copy; 2023 Callen Jolley</p>
+    <p>Head Over Boots &copy;<span id="currentyear"></span> - Callen Jolley - USA</p>
+    <p id="lastModified"></p>
     <a href="head-over-boots-home.html">Home</a>
     <a  href="gallary.html">Gallery</a>
     <a href="packages.html">Packages</a>
